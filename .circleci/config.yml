@@ -10,5 +10,4 @@ jobs:
 workflows: 
   basic:  
     jobs: 
-      - build-and-test
-run: make docker_build
+      - build-and-test 
